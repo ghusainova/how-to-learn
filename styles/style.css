@@ -49,13 +49,14 @@
   line-height: 96px;
   font-weight: 600;
 
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   align-items: center;
   z-index: 2;
 }
 
 /*3*/
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -214,7 +215,7 @@
 
 .table__text {
   padding: 20px 0 0;
-
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -367,7 +368,7 @@
 }
 
 .footer__column-heading {
-
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
