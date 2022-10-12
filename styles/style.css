@@ -22,8 +22,8 @@
 
 }
 
-p, section, h2, h3, div {
-  border: 1px solid red;
+p, a, img, section, h2, h3, div {
+  /*border: 1px solid red;*/
 }
 
 .header {
@@ -227,6 +227,42 @@ p, section, h2, h3, div {
   text-align: center;
 }
 
+/*VIDEO*/
+.video {
+  padding: 100px 0 0;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__iframes {
+  /*margin: 50px auto 0;*/
+  position: relative;
+  top: 50px;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  border: 0;
+}
+
+.video__iframe:nth-child(1) {
+  margin-right: 20px;
+}
+
+/*OAKLEY*/
+.oakley {
+  padding: 160px 0 0;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 /*DIGITS*/
 
 .digits {
@@ -348,6 +384,88 @@ p, section, h2, h3, div {
   font-weight: normal;
 }
 
+/*KHAN*/
+.khan {
+  padding: 105px 0 0;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.khan__container {
+  margin: 0 auto;
+  width: 80%;
+
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: flex-start;*/
+}
+
+.khan__author {
+  margin: 0;
+  padding: 0;
+
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0 0 50px;
+
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+khan__quote {
+  width: 790px;
+  margin: 0 0 36px;
+  /*padding: 0;*/
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin: 0 0 10px;
+  padding: 0;
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.khan__quote-author-subline {
+  margin: 0 0 68px;
+  padding: 0;
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  margin: 0 48px 0 0;
+  padding: 0;
+
+  object-fit: cover; /*обрезка по размерам*/
+  object-position: top; /*чтобы обрезался только низ*/
+}
+
+.khan__buy-link {
+  /*align-self: flex-start;*/
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+}
 /*KAUFMAN*/
 
 .kaufman {
@@ -389,6 +507,24 @@ p, section, h2, h3, div {
   overflow: hidden;
 }
 
+/*RESOURCES*/
+.resources {
+  padding: 100px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  display: flex;
+  flex-direction: row;
+  margin: 80px auto 217px;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
 
 /*FOOTER*/
 
