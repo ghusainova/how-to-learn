@@ -1,10 +1,10 @@
-##Проектная работа №1 по курсу "Расширенные возможности HTML и CSS"
-###от [Яндекс Практикум. Веб-разработчик.](https://practicum.yandex.ru/profile/web/)
+## Проектная работа №1 по курсу "Расширенные возможности HTML и CSS"
+### от [Яндекс Практикум. Веб-разработчик.](https://practicum.yandex.ru/profile/web/)
 ____
-###Описание
+### Описание
 Это статичный лендинг для изучения HTML и CSS.
 Был сверстан по методологии БЭМ с файловой структурой Nested
-###Технологии
+### Технологии
 - Flexbox
 - Positioning Elements
 - Animation and Transform using CSS
@@ -12,15 +12,15 @@ ____
 - BEM Methodology
 - File Structure and File Paths (Nested BEM)
 - Git
-###Стэк
+### Стэк
 - HTML
 - CSS
 
-###План по доработке
+### План по доработке
 - Адаптивность
-###Ссылка на сайт:
+### Ссылка на сайт:
 [Проектная работа на GitHub Pages]()
-###Preview
+### Preview
 ![img.png](project.png)
 ____
 English language: [En](README.en.md)
