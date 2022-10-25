@@ -1,0 +1,19 @@
+@import "__author/footer__author.css";
+@import "__column/footer__column.css";
+@import "__column-heading/footer__column-heading.css";
+@import "__column-link/footer__column-link.css";
+@import "__column-links/footer__column-links.css";
+@import "__columns/footer__columns.css";
+@import "__social-icon/footer__social-icon.css";
+/*FOOTER*/
+
+.footer {
+  margin: 0;
+  padding: 60px 0 40px;
+
+  background-color: #1f1f1f;
+  color: white;
+  min-height: 350px;
+  box-sizing: border-box;
+  display: flex;
+}

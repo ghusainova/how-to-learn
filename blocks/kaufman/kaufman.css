@@ -1,0 +1,13 @@
+@import "__triangle/kaufman__triangle.css";
+/*KAUFMAN*/
+
+.kaufman {
+  margin: 0;
+  padding: 90px 0;
+
+  background-color: #1f1f1f;
+  color: white;
+  z-index: 1;
+  position: relative;
+  overflow: hidden; /* скрывает отрезанную часть треугольника */
+}
