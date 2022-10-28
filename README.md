@@ -21,6 +21,6 @@ ____
 ### Ссылка на сайт:
 [Проектная работа на GitHub Pages]()
 ### Preview
-![img.png](project.png)
+![img.png](images/project.png)
 ____
 English language: [En](README.en.md)

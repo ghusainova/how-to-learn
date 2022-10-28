@@ -19,6 +19,6 @@ It was checked according to the BEM methodology with the file structure of neste
 ### Future plan
 - Adaptability
 ### Preview
-![img.png](project.png)
+![img.png](images/project.png)
 ____
 Russian: [Ru](README.md)
